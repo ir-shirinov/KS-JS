@@ -60,7 +60,7 @@
       getComment(numberPhoto, costComments);
       document.addEventListener('keydown', onEscPress);
 
-      // Прячем блоки счетчиков комментариев и загрузки новых комментариев
+      // Показываем комментарии
       if (window.photos[numberPhoto].comments.length > 5) {
         socialLoadmore.classList.remove('visually-hidden');
 
